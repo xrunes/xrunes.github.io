@@ -35,10 +35,10 @@ body {
     -webkit-tap-highlight-color: transparent
 }
 
-/*#app,
+#app,
 body {
     width: 100%
-}*/
+}/*我当初是为什么把这段给注释掉来着？？？*/
 
 #app {
     position: absolute;
