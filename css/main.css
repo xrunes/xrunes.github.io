@@ -20,16 +20,16 @@ html {
 }
 
 @font-face {
-    font-family: FZFW;
-    src: url('FZFW.woff2');
+    font-family: FZFWZhuZiAYuanJR;
+    src: url('../source/FZFWZhuZiAYuanJR.OTF');
+    font-display: swap;
 }
 
 body {
     background-color: #f6f6f6;
     background-image: linear-gradient(135deg, #667eea, #764ba2);/*背景图紫色蒙版*/
     transition: all .3s ease;
-    font-family: Helvetica, Helvetica Neue, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
-    font-family: FZFW, 'Noto Sans', sans-serif;
+    font-family: FZFWZhuZiAYuanJR, Helvetica, Helvetica Neue, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
     -webkit-user-select: none;
     user-select: none;
     -webkit-tap-highlight-color: transparent
@@ -140,15 +140,14 @@ body {
     transition: all .3s ease
 }
 
-#rotation:hover{transform: rotate(360deg)}
-/*头像旋转
+/*#rotation:hover{transform: rotate(360deg)}
+头像旋转*/
 .main .avatar img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
     -webkit-transform: scale(1.2);
     transform: scale(1.2)
 }
-*/
 
 .main .hitokoto {
     text-align: center;
