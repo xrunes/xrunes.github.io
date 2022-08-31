@@ -328,7 +328,7 @@ a:hover{color: #8d67e6}
 
 @media (min-width:1000px) {
     body{
-        background-image: url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/dot.gif');
+        background-image: url('../img/dot.gif');
     }
     .mask {
         background-repeat: no-repeat;
