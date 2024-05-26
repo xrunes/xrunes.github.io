@@ -21,8 +21,8 @@ html {
 }
 
 @font-face {
-    font-family: FZFWZhuZiAYuanJR;
-    src: url('../source/FZFWZhuZiAYuanJR.OTF');
+    font-family: 'ZhuZiAYuanJWD' ;  /* 字体名自定义 */
+    src: url('../source/ZhuZiAWan.ttf');  /* 字体文件路径 */
     font-display: swap;
     /*在字体未加载完成时，显示备用字体而不是空白*/
 }
@@ -31,7 +31,7 @@ body {
     background-image: linear-gradient(135deg, #667eea, #764ba2);
     /*背景图紫色蒙版*/
     transition: all .3s ease;
-    font-family: FZFWZhuZiAYuanJR, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+    font-family: ZhuZiAYuanJWD, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
 }
 
 @media (min-width: 1000px) {
