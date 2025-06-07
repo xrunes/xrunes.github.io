@@ -35,10 +35,12 @@ body {
 }
 
 @media (min-width: 1000px) {
+    /*
     body {
         background-image: url('../img/dot.gif');
         margin: 0;
     }
+    */
 
     .mask {
         background-image: url('../img/background.jpg');
